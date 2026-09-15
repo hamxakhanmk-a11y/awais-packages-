@@ -1,17 +1,18 @@
-# Sveltia CMS — the editor behind www.supremeart.pk/admin
+# Before enabling hosted CMS login, replace localhost below with this project's deployed URL.
+# Sveltia CMS — the editor behind localhost:3000/admin
 #
 # Saving here commits to the `main` branch on GitHub, which triggers a Vercel
 # deploy. A change is usually live about a minute after you press Publish.
 
 backend:
   name: github
-  repo: JawadZaheerKhan/supreme-art-website
+  repo: hamxakhanmk-a11y/awais-packages-
   branch: main
   # Points at the OAuth endpoints in /api. See api/auth.js and api/callback.js.
-  base_url: https://www.supremeart.pk
+  base_url: http://localhost:3000
   auth_endpoint: api/auth
 
-site_url: https://www.supremeart.pk
+site_url: http://localhost:3000
 publish_mode: simple
 
 # Photos live in the repo here and are served from /images. Everything already

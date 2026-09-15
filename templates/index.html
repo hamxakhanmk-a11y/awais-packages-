@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-{{> head}}
+{{> home-head}}
 </head>
 <body class="home-page">
-{{> gtm-body}}
-{{> loader}}
-{{> header}}
+
+
+{{> home-header}}
 
   <main>
     <!-- HOME SCROLL STORY -->
-    <section class="home-story" id="home-hero" aria-label="Supreme Art introduction">
+    <section class="home-story" id="home-hero" aria-label="Awais Packages introduction">
       <div class="home-story__sticky">
         <div class="home-story__media" aria-hidden="true">
-          <img src="/images/home/heidelberg-line-hero.jpg" alt="" />
+          <img src="{{ page.hero.image }}" alt="" />
           <span class="home-story__shade"></span>
         </div>
         <div class="home-story__scenes" aria-live="polite">
           <div class="home-story__scene is-active" data-home-stage="0">
-            <h1 class="home-story__full-logo"><img src="/images/home/supreme-art-full-logo.svg" alt="Supreme Art (Pvt) Ltd. — سپریم آرٹ" width="1240" height="400" fetchpriority="high" /></h1>
+            <h1 class="awais-hero-title">{{ page.hero.title }}<span>(Pvt.) Ltd.</span></h1><p class="awais-hero-tagline">{{ page.hero.tagline }}</p>
           </div>
           <div class="home-story__scene" data-home-stage="1">
-            <h2>Pharmaceutical Packaging Specialist</h2>
+            <h2>{{& page.hero.message }}</h2>
           </div>
           <div class="home-story__scene" data-home-stage="2">
-            <h2>1.5 Million Per Day<br />Production Capacity</h2>
+            <h2>{{& page.hero.location }}</h2>
           </div>
         </div>
         <div class="home-story__progress" aria-hidden="true"><span></span><span></span><span></span></div>
@@ -41,7 +41,7 @@
     </div>
 
     <!-- WHO WE ARE SCROLL CHAPTER -->
-    <section class="home-overview-story" data-home-overview aria-label="Who we are">
+    <section id="about" class="home-overview-story" data-home-overview aria-label="Who we are">
       <div class="home-overview-story__sticky">
         <div class="container home-overview-story__layout">
           <div class="home-overview-story__media">
@@ -64,7 +64,7 @@
     </section>
 
     <!-- PRODUCTS SCROLL CHAPTER -->
-    <section class="home-products-story" data-home-products data-services-section aria-label="Our products">
+    <section id="solutions" class="home-products-story" data-home-products data-services-section aria-label="Our products">
       <div class="home-products-story__sticky">
         <div class="container home-products-story__inner">
           <div class="home-products-story__heading">
@@ -94,11 +94,11 @@
     </section>
 
     <!-- PROCESS HORIZONTAL STAGES -->
-    <section class="home-process-story" data-home-process aria-label="Our production process">
+    <section id="facilities" class="home-process-story" data-home-process aria-label="Our production process">
       <div class="home-process-story__sticky">
         <div class="home-process-story__scenes">
-          {{#each content.process.steps}}<article class="home-process-scene" data-process-card="{{ @index }}">
-            <img src="{{ image }}" alt="{{ title }} at Supreme Art" loading="lazy" />
+          {{#each page.process.steps}}<article class="home-process-scene" data-process-card="{{ @index }}">
+            <img src="{{ image }}" alt="Facility photograph from the Awais Packages website" loading="lazy" />
 
             <div class="container home-process-scene__copy">
               <span class="home-process-scene__num">{{ num }}</span>
@@ -109,58 +109,14 @@
           </article>{{/each}}
         </div>
         <div class="home-process-story__chrome container">
-          <span class="home-process-story__count"><b>01</b> / {{ content.process.steps.length }}</span>
+          <span class="home-process-story__count"><b>01</b> / {{ page.process.steps.length }}</span>
           <a class="home-process-story__all" href="{{ page.process.button_href }}">{{ page.process.button_label }} &rarr;</a>
         </div>
         <div class="home-process-story__progress" aria-hidden="true"><span></span></div>
       </div>
     </section>
-    <!-- QUALITY HORIZONTAL STAGES -->
-    <section class="home-quality-story" data-home-quality aria-label="Quality assurance">
-      <div class="home-quality-story__sticky">
-        <div class="home-quality-story__scenes">
-          {{#each content.quality.process.steps}}<article class="home-process-scene home-quality-scene" data-quality-card="{{ @index }}">
-            <img src="{{ image }}" alt="{{ title }} at Supreme Art" loading="lazy" />
-
-            <div class="container home-process-scene__copy">
-              <span class="home-process-scene__num">{{ @num }}</span>
-              <p class="eyebrow">Quality assurance</p>
-              <h2>{{ title }}</h2>
-              <p>{{ text }}</p>
-            </div>
-          </article>{{/each}}
-        </div>
-        <div class="home-quality-story__chrome container">
-          <span class="home-quality-story__count"><b>01</b> / {{ content.quality.process.steps.length }}</span>
-          <a class="home-quality-story__all" href="quality.html">Explore quality &rarr;</a>
-        </div>
-        <div class="home-quality-story__progress" aria-hidden="true"><span></span></div>
-      </div>
-    </section>
-    <!-- CLIENTS SCROLL CHAPTER -->
-    <section id="clients" class="home-clients-story" data-home-clients data-services-section aria-label="Our clients">
-      <div class="home-clients-story__sticky">
-        <div class="container home-clients-story__inner">
-          <div class="home-clients-story__heading">
-            <div><p class="eyebrow">{{ page.clients.eyebrow }}</p><h2>{{ page.clients.heading }}</h2></div>
-            <p class="lead">{{ page.clients.lead }}</p>
-          </div>
-          <div class="home-clients-story__stage grid">
-            {{#each page.clients.items}}<article class="home-client-card card" data-client-card="{{ @index }}">
-              <div class="client__badge">
-                <img class="client__logo" src="{{ logo }}" alt="{{ name }}" onerror="this.style.display='none'">
-                <span class="client__mono" style="color:{{ colour }}">{{ initials }}</span>
-              </div>
-              <h3>{{ name }}</h3>
-            </article>{{/each}}
-          </div>
-          <span class="home-clients-story__count"><b>01</b> / {{ page.clients.items.length }}</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- NEWS AND CONTACT SCROLL CHAPTER -->
-    <section id="news" class="home-closing-story" data-home-closing data-services-section aria-label="News and contact">
+    <!-- PACKAGING APPROACH -->
+    <section id="news" class="home-closing-story" data-home-closing data-services-section aria-label="Our approach to packaging">
       <div class="home-closing-story__sticky">
         <div class="container home-closing-story__inner">
           <div class="home-closing-story__heading"><p class="eyebrow">{{ page.news.eyebrow }}</p><h2>{{ page.news.heading }}</h2></div>
@@ -173,7 +129,7 @@
       </div>
     </section>
     <!-- STANDALONE CONTACT CHAPTER -->
-    <section class="home-contact-story" data-home-contact aria-label="Contact Supreme Art">
+    <section id="contact" class="home-contact-story" data-home-contact aria-label="Contact Awais Packages">
       <div class="home-contact-story__inner container">
         <p class="eyebrow">Start a project</p>
         <h2>{{ page.cta.heading }}</h2>
@@ -183,8 +139,9 @@
     </section>
   </main>
 
-{{> footer}}
+{{> home-footer}}
 
+  <script src="/awais-home.js"></script>
   <script src="/script.js"></script>
   <script src="/services-motion.js"></script>
 </body>

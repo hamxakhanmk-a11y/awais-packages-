@@ -1,228 +1,157 @@
 {
-  "title": "Supreme Art — Pharmaceutical Packaging & Printing",
-  "description": "Supreme Art manufactures pharmaceutical folding cartons — printed, die-cut, folded and glued in-house in Peshawar, Pakistan.",
+  "title": "Awais Packages — Folding Cartons & Offset Printing",
+  "description": "Awais Packages (Pvt.) Ltd. provides folding cartons, offset printing and corrugated packaging from Hattar, Pakistan.",
   "hero": {
-    "title": "Supreme Art",
-    "tagline": "The box your medicine comes in.",
-    "slides": [
-      {
-        "image": "/images/pressroom.jpg",
-        "alt": "Offset printing press"
-      },
-      {
-        "image": "/images/foldergluer.jpg",
-        "alt": "Printing machine"
-      },
-      {
-        "image": "/images/diecutting.jpg",
-        "alt": "Paper cutting machine"
-      },
-      {
-        "image": "/images/factory.jpg",
-        "alt": "Print production line"
-      }
-    ]
+    "title": "Awais Packages",
+    "tagline": "Packaging that builds your brand.",
+    "image": "https://www.awaispackages.com/_img/gallery_01.jpg",
+    "message": "Folding cartons.\nOffset printing.",
+    "location": "Designed, produced and printed\nin Hattar, Pakistan."
   },
   "marquee": [
-    "Tablet cartons",
-    "Syrup cartons",
-    "Blister cartons",
-    "Ointment cartons",
-    "Drop & vial cartons",
-    "Sachet boxes"
+    "Folding cartons",
+    "Offset printing",
+    "Corrugated cartons",
+    "Prepress support",
+    "Packaging design"
   ],
   "about": {
     "eyebrow": "Who we are",
-    "heading": "A pharmaceutical carton maker, from prepress to pallet.",
-    "text": "Supreme Art is a Peshawar-based manufacturer of pharmaceutical folding cartons — the printed paper boxes that carry tablets, syrups, blisters and vials. We run the entire process in-house, so your artwork becomes a finished, machine-ready carton without ever leaving our floor.",
+    "heading": "Independent thinking. Complete packaging.",
+    "text": "Awais Packages (Pvt.) Ltd. is an independent folding-carton producer in Hattar, Pakistan, bringing packaging design, production and printing together at one site.",
     "points": [
-      "Offset printing, die-cutting, folding & gluing in-house",
-      "Pharma-grade board with full batch traceability",
-      "Short runs through to full production volumes"
+      "Design, production and printing in Hattar",
+      "Investment in modern offset machinery",
+      "Long-standing supplier relationships"
     ],
-    "button_label": "More about us",
-    "button_href": "about.html",
+    "button_label": "About Awais Packages",
+    "button_href": "https://www.awaispackages.com/about-us",
     "media": {
-      "alt": "Supreme Art offset printing and inspection area",
-      "image": "/images/home/who-we-are-press.jpg"
+      "image": "https://www.awaispackages.com/_img/gallery_02.jpg",
+      "alt": "Facility photograph from the Awais Packages website"
     }
   },
   "products": {
-    "eyebrow": "What we make",
-    "heading": "Packaging for pharmaceutical and food products.",
-    "lead": "We produce printed cartons, leaflets and labels for medicines and food products.",
+    "eyebrow": "Our solutions",
+    "heading": "Built around your product.",
+    "lead": "Packaging solutions for performance, transport and display.",
     "items": [
       {
-        "title": "Tablet packaging",
-        "text": "Cartons for tablet blister and strip packs.",
-        "alt": "Tablet packaging",
-        "image": "/images/products/tablet-packaging.jpg"
+        "title": "Offset printing",
+        "text": "Print and design solutions that help brands stand out.",
+        "image": "https://www.awaispackages.com/_img/gallery_03.jpg",
+        "alt": "Awais Packages facility photograph"
       },
       {
-        "title": "Capsule packaging",
-        "text": "Cartons for capsule blister, strip and bottle formats.",
-        "alt": "Capsule packaging",
-        "image": "/images/products/capsule-packaging.jpg"
+        "title": "Offset corrugated cartons",
+        "text": "Printed corrugated packaging for oil, ghee, electronics and fruit.",
+        "image": "https://www.awaispackages.com/_img/gallery_04.jpg",
+        "alt": "Awais Packages facility photograph"
       },
       {
-        "title": "Syrup packaging",
-        "text": "Protective bottle cartons with optional inserts.",
-        "alt": "Syrup packaging",
-        "image": "/images/products/syrup-packaging.jpg"
-      },
-      {
-        "title": "Leaflets & inserts",
-        "text": "Printed and folded product-information inserts.",
-        "alt": "Pharmaceutical leaflets and inserts",
-        "image": "/images/products/leaflets-inserts.jpg"
-      },
-      {
-        "title": "Labels",
-        "text": "Colour-accurate labels for bottles and products.",
-        "alt": "Printed product labels",
-        "image": "/images/products/labels.jpg"
-      },
-      {
-        "title": "Food packaging",
-        "text": "Masala and food packaging for brands including Stanley Foods and SwaaD Foods.",
-        "alt": "Supreme Art masala and food packaging",
-        "image": "/images/products/food-packaging.jpg"
+        "title": "Prepress support",
+        "text": "Support for packaging design and preparation before production.",
+        "image": "https://www.awaispackages.com/_img/gallery_05.jpg",
+        "alt": "Awais Packages facility photograph"
       }
     ],
-    "button_label": "Explore our services",
-    "button_href": "products.html"
+    "button_label": "Explore packaging solutions",
+    "button_href": "https://www.awaispackages.com/our_solutions"
   },
   "process": {
-    "eyebrow": "How it's made",
-    "heading": "From artwork to flat-packed carton.",
-    "lead": "Eleven stages, all under one roof in Peshawar.",
-    "button_label": "See the full process",
-    "button_href": "process.html"
-  },
-  "capabilities": {
-    "eyebrow": "Our capabilities",
-    "heading": "One factory. The whole carton."
-  },
-  "quality": {
-    "eyebrow": "Quality",
-    "heading": "Built for pharma standards.",
-    "text": "Medicine packaging doesn't get second chances. We run documented quality assurance across every stage — incoming board, colour control on press, dimensional checks after die-cutting, and final inspection before dispatch.",
-    "stats": [
+    "button_label": "Explore Awais Packages",
+    "button_href": "https://www.awaispackages.com/about-us",
+    "steps": [
       {
-        "number": 25,
-        "label": "+ years in print"
+        "num": "01",
+        "title": "Our facilities",
+        "text": "A look inside Awais Packages, using photographs from the company’s facility gallery.",
+        "image": "https://www.awaispackages.com/_img/gallery_01.jpg"
       },
       {
-        "number": 100,
-        "label": "% in-house"
+        "num": "02",
+        "title": "Made in Hattar",
+        "text": "Packaging design, production and printing at one location.",
+        "image": "https://www.awaispackages.com/_img/gallery_02.jpg"
       },
       {
-        "number": 48,
-        "label": "hr proofing"
-      }
-    ],
-    "button_label": "Our quality process",
-    "button_href": "quality.html",
-    "media": {
-      "alt": "Quality / inspection photo",
-      "image": ""
-    }
-  },
-  "gallery": {
-    "eyebrow": "Inside the factory",
-    "heading": "Where your cartons are made."
-  },
-  "clients": {
-    "eyebrow": "Trusted by",
-    "heading": "Our clients.",
-    "lead": "Pharmaceutical and consumer brands that rely on Supreme Art for their packaging.",
-    "items": [
-      {
-        "name": "SwaaD",
-        "logo": "/images/clients/stanley.png",
-        "initials": "SW",
-        "colour": "#00a8cc"
+        "num": "03",
+        "title": "Investment in technology",
+        "text": "Modern machinery supports the company’s offset printing operation.",
+        "image": "https://www.awaispackages.com/_img/gallery_03.jpg"
       },
       {
-        "name": "Global Pharmaceuticals",
-        "logo": "/images/clients/global.png",
-        "initials": "GP",
-        "colour": "#d6347f"
+        "num": "04",
+        "title": "Packaging expertise",
+        "text": "Folding cartons and printed corrugated packaging for a range of industries.",
+        "image": "https://www.awaispackages.com/_img/gallery_04.jpg"
       },
       {
-        "name": "Ferozsons",
-        "logo": "/images/clients/ferozsons.png",
-        "initials": "FZ",
-        "colour": "#1b6fb3"
-      },
-      {
-        "name": "Shaigan",
-        "logo": "/images/clients/shaigan.png",
-        "initials": "SH",
-        "colour": "#c99a00"
-      },
-      {
-        "name": "Herbion",
-        "logo": "/images/clients/herbion.png",
-        "initials": "HB",
-        "colour": "#2e9e5b"
-      },
-      {
-        "name": "Evolution",
-        "logo": "/images/clients/evolution.png",
-        "initials": "EV",
-        "colour": "#17171a"
-      },
-      {
-        "name": "Danas",
-        "logo": "/images/clients/danas.jpg",
-        "initials": "DA",
-        "colour": "#1aa5b8"
-      },
-      {
-        "name": "Stanley Pharmaceuticals",
-        "logo": "/images/clients/stanley-pharma.png",
-        "initials": "ST",
-        "colour": "#2e9e5b"
-      },
-      {
-        "name": "Bio-Labs",
-        "logo": "/images/clients/biolabs.jpg",
-        "initials": "BL",
-        "colour": "#1b6fb3"
+        "num": "05",
+        "title": "Attention to detail",
+        "text": "Supplier relationships support efficient packaging production.",
+        "image": "https://www.awaispackages.com/_img/gallery_05.jpg"
       }
     ]
   },
   "news": {
-    "eyebrow": "News & updates",
-    "heading": "What's happening at the factory.",
+    "eyebrow": "Our approach",
+    "heading": "More value. Less waste.",
     "posts": [
       {
-        "date": "Aug 2026",
-        "title": "Expanding our folding-carton capacity",
-        "text": "New folder-gluer capacity means faster turnaround on high-volume runs.",
-        "href": "contact.html"
+        "date": "DESIGN",
+        "title": "Packaging with purpose",
+        "text": "Consider product protection, transit and display together.",
+        "href": "https://www.awaispackages.com/our_solutions"
       },
       {
-        "date": "Jun 2026",
-        "title": "Colour-accuracy on every press pass",
-        "text": "How press-side colour control keeps pharma branding consistent.",
-        "href": "contact.html"
+        "date": "MATERIALS",
+        "title": "Make more from less",
+        "text": "Use raw materials efficiently to reduce packaging waste.",
+        "href": "https://www.awaispackages.com/our_solutions"
       },
       {
-        "date": "Apr 2026",
-        "title": "Our commitment to pharma-grade quality",
-        "text": "Inside the documented checks behind every carton we ship.",
-        "href": "contact.html"
+        "date": "RECYCLING",
+        "title": "Give board another life",
+        "text": "Leftover board trim is recycled as part of the company’s approach to reducing waste.",
+        "href": "https://www.awaispackages.com/our_solutions"
       }
     ]
   },
   "cta": {
-    "heading": "Have a carton to make?",
-    "text": "Send us your artwork or dieline — we'll come back with a quote and a timeline.",
-    "primary_label": "Get a quote",
-    "primary_href": "contact.html",
-    "secondary_label": "Call the floor",
-    "secondary_href": "tel:+923135585784"
-  }
+    "heading": "Let’s talk packaging.",
+    "text": "Speak with Awais Packages about your next printing or packaging project.",
+    "primary_label": "Email our team",
+    "primary_href": "mailto:info@awaispackages.com",
+    "secondary_label": "Call 0995 352576",
+    "secondary_href": "tel:+92995352576"
+  },
+  "contact": {
+    "email": "info@awaispackages.com",
+    "phone": "0995 352576",
+    "phone_link": "+92995352576",
+    "address": "Plot #47, Phase 4, Dewan Salman Road, Hattar Industrial Estate, Haripur, Khyber Pakhtunkhwa"
+  },
+  "links": [
+    {
+      "label": "Home",
+      "href": "#home-hero"
+    },
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Solutions",
+      "href": "#solutions"
+    },
+    {
+      "label": "Facilities",
+      "href": "#facilities"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ]
 }

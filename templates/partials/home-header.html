@@ -1,0 +1,10 @@
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand awais-brand" href="index.html" aria-label="Awais Packages home">AWAIS<span>PACKAGES <small>(PVT.) LTD.</small></span></a>
+    <nav class="nav-links" aria-label="Main navigation">
+      {{#each page.links}}<a href="{{ href }}">{{ label }}</a>{{/each}}
+      <a href="{{ page.cta.primary_href }}">Get in touch</a>
+    </nav>
+    <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>

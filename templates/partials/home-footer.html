@@ -1,0 +1,14 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand"><a class="awais-brand" href="#home-hero">AWAIS<span>PACKAGES <small>(PVT.) LTD.</small></span></a><p>Folding cartons, offset printing and corrugated packaging. Made in Hattar, Pakistan.</p></div>
+      <div class="footer-col"><h4>Explore</h4><ul>{{#each page.links}}<li><a href="{{ href }}">{{ label }}</a></li>{{/each}}</ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul>
+        <li><a href="mailto:{{ page.contact.email }}">{{ page.contact.email }}</a></li>
+        <li><a href="tel:{{ page.contact.phone_link }}">{{ page.contact.phone }}</a></li>
+        <li>{{ page.contact.address }}</li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><p>&copy; <span id="year"></span> Awais Packages (Pvt.) Ltd.</p><p>Packaging that builds your brand.</p></div>
+  </div>
+</footer>
