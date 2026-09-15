@@ -13,7 +13,7 @@
   --m: #d6347f;
   --y: #e8b400;
   --max: 1140px;
-  --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font: Arial, "Helvetica Neue", Helvetica, sans-serif;
   --display: Futura, "Futura PT", "Century Gothic", Avenir, sans-serif;
 }
 
@@ -96,10 +96,6 @@ a { color: inherit; }
   font-weight: 600; font-size: 1rem; text-decoration: none;
   cursor: pointer; border: 1px solid transparent;
   transition: transform .15s ease, box-shadow .2s ease, background .2s;
-  /* Chromium/Windows renders hollow glyphs on GPU-composited text; force the solid paint path. */
-  -webkit-text-fill-color: currentColor;
-  -webkit-text-stroke: 0;
-  text-shadow: none;
 }
 .btn--accent { background: var(--accent); color: #fff; box-shadow: 0 8px 26px rgba(27,111,179,.28); }
 .btn--accent:hover { transform: translateY(-2px); background: var(--accent-dark); box-shadow: 0 12px 32px rgba(27,111,179,.38); }
@@ -304,10 +300,6 @@ a { color: inherit; }
 .eyebrow {
   text-transform: uppercase; letter-spacing: .22em;
   font-size: .72rem; color: var(--accent); font-weight: 600; margin: 0 0 12px;
-  /* Chromium/Windows renders hollow glyphs on GPU-composited text; force the solid paint path. */
-  -webkit-text-fill-color: currentColor;
-  -webkit-text-stroke: 0;
-  text-shadow: none;
 }
 .prose { max-width: 640px; color: var(--muted); font-size: 1.05rem; margin: 0 0 36px; }
 .prose--center { margin-inline: auto; }
