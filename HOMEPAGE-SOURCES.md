@@ -25,3 +25,7 @@ existing Awais Packages website. Contact buttons use the verified email and phon
 Six original WebP files are now stored locally under static/images/awais/.
 Photo 4: hero; photo 2: Who we are; photo 1: Our facilities; photo 3: Made in Hattar; photo 5: Investment in technology; photo 6: Attention to detail.
 The solutions cards and Packaging expertise image retain their existing remote references.
+
+## Latest replacement photos
+
+The latest seven user-supplied images replace the hero, Who we are, and the five facility stages in attachment order. Original PNG/JPEG files are copied without additional brightness adjustments.
