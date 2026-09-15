@@ -13,8 +13,8 @@
   --m: #d6347f;
   --y: #e8b400;
   --max: 1140px;
-  --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --display: "Space Grotesk", var(--font);
+  --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --display: Futura, "Futura PT", "Century Gothic", Avenir, sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -1687,7 +1687,7 @@ a { color: inherit; }
 .home-story__scene[data-home-stage="1"] { justify-content: flex-end; padding-bottom: clamp(76px, 10vh, 112px); }
 .home-story__scene[data-home-stage="2"] { justify-content: flex-start; padding-top: clamp(126px, 16vh, 170px); }
 .home-story__eyebrow { margin: 0 0 18px; color: #d9ecfb; font-size: clamp(.68rem, .9vw, .85rem); font-weight: 700; letter-spacing: .34em; text-transform: uppercase; text-shadow: 0 2px 16px rgba(0,0,0,.55); }
-.home-story__scene h1, .home-story__scene h2 { width: min(1100px, 92vw); margin: 0; color: #fff; font-family: "Michroma", "Eurostile Extended", sans-serif; font-weight: 400; line-height: 1.04; text-wrap: balance; text-shadow: 0 5px 32px rgba(0,0,0,.7); }
+.home-story__scene h1, .home-story__scene h2 { width: min(1100px, 92vw); margin: 0; color: #fff; font-family: var(--display); font-weight: 500; line-height: 1.04; text-wrap: balance; text-shadow: 0 5px 32px rgba(0,0,0,.7); }
 .home-story__scene h1 { font-size: clamp(3rem, 8vw, 8rem); letter-spacing: .035em; white-space: nowrap; }
 .home-story__scene[data-home-stage="1"] h2 { font-size: clamp(2.2rem, 5vw, 5rem); letter-spacing: .015em; }
 .home-story__scene[data-home-stage="2"] h2 { font-size: clamp(2.4rem, 5vw, 5.6rem); letter-spacing: .015em; }

@@ -1,15 +1,15 @@
 /* Loaded only by the Awais Packages homepage. */
-.awais-brand { display: inline-flex; flex-direction: column; color: inherit; text-decoration: none; font-family: "Space Grotesk", sans-serif; font-size: 30px; font-weight: 700; letter-spacing: .1em; line-height: 1; }
+.awais-brand { display: inline-flex; flex-direction: column; color: inherit; text-decoration: none; font-family: var(--display); font-size: 30px; font-weight: 700; letter-spacing: .1em; line-height: 1; }
 .awais-brand > span { font-size: 12px; letter-spacing: .11em; margin-top: 5px; }
 .awais-brand small { font-size: 8px; }
 .home-page .site-header.is-over-hero .awais-brand { color: #fff; }
-.home-story__scene h1.awais-hero-title { white-space: normal; font-family: "Space Grotesk", sans-serif; font-size: clamp(3.2rem, 9vw, 8.5rem); font-weight: 600; letter-spacing: -.05em; max-width: 1000px; }
+.home-story__scene h1.awais-hero-title { white-space: normal; font-family: var(--display); font-size: clamp(3.2rem, 9vw, 8.5rem); font-weight: 600; letter-spacing: -.05em; max-width: 1000px; }
 .awais-hero-title span { display: block; font-size: clamp(1rem, 2.3vw, 2rem); margin-top: 24px; letter-spacing: .14em; }
 .awais-hero-tagline { color: #fff; font-size: clamp(1rem, 2vw, 1.5rem); margin-top: 28px; text-shadow: 0 2px 15px #000; }
 .home-story__media { background: radial-gradient(ellipse at 75% 60%, #234f62, #10282c 60%, #061519); }
 .source-image-unavailable { visibility: hidden; }
 .home-overview-story__media, .home-product-card__media, .home-process-scene { background: #15383d; }
-.source-photo-note { position: absolute; bottom: 18px; right: 18px; max-width: 240px; padding: 8px 12px; color: #d8e6e5; background: #10272ddd; font: 12px/1.4 Inter, sans-serif; border-radius: 6px; z-index: 1; }
+.source-photo-note { position: absolute; bottom: 18px; right: 18px; max-width: 240px; padding: 8px 12px; color: #d8e6e5; background: #10272ddd; font: 12px/1.4 var(--font); border-radius: 6px; z-index: 1; }
 .home-product-card__media { position: relative; }
 .home-process-scene .source-photo-note { top: 100px; bottom: auto; }
 .home-page section[id] { scroll-margin-top: 100px; }
