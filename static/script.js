@@ -806,7 +806,7 @@ document.querySelectorAll('[data-count]').forEach((el) => countIO.observe(el));
     about: '.cta-band .btn',
     'company-profile': '.cta-band .btn',
     products: '.cta-band .btn',
-    index: '.home-contact-story__inner .hero-actions .btn'
+    index: '.btn'
   };
   if (!selectors[page]) return;
   document.querySelectorAll(selectors[page]).forEach(button => {
