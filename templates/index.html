@@ -13,7 +13,7 @@
     <section class="home-story" id="home-hero" aria-label="Awais Packages introduction">
       <div class="home-story__sticky">
         <div class="home-story__media" aria-hidden="true">
-          <img src="{{ page.hero.image }}" alt="" />
+          <img src="{{ page.hero.image }}" alt="" fetchpriority="high" />
           <span class="home-story__shade"></span>
         </div>
         <div class="home-story__scenes" aria-live="polite">
@@ -98,7 +98,7 @@
       <div class="home-process-story__sticky">
         <div class="home-process-story__scenes">
           {{#each page.process.steps}}<article class="home-process-scene" data-process-card="{{ @index }}">
-            <img src="{{ image }}" alt="Facility photograph from the Awais Packages website" loading="lazy" />
+            <img src="{{ image }}" alt="{{ alt }}" loading="lazy" />
 
             <div class="container home-process-scene__copy">
               <span class="home-process-scene__num">{{ num }}</span>

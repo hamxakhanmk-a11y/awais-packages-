@@ -19,3 +19,9 @@ The copied production figures, pharmaceutical claims, unverified client list and
 were removed from the homepage. The existing scroll layout and animation scripts are retained.
 Homepage navigation uses local section anchors; deeper source links explicitly lead to the
 existing Awais Packages website. Contact buttons use the verified email and phone directly.
+
+## User-supplied photos
+
+Six original WebP files are now stored locally under static/images/awais/.
+Photo 4: hero; photo 2: Who we are; photo 1: Our facilities; photo 3: Made in Hattar; photo 5: Investment in technology; photo 6: Attention to detail.
+The solutions cards and Packaging expertise image retain their existing remote references.

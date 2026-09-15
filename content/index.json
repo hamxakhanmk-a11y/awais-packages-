@@ -4,7 +4,7 @@
   "hero": {
     "title": "Awais Packages",
     "tagline": "Packaging that builds your brand.",
-    "image": "https://www.awaispackages.com/_img/gallery_01.jpg",
+    "image": "/images/awais/hero-factory.webp",
     "message": "Folding cartons.\nOffset printing.",
     "location": "Designed, produced and printed\nin Hattar, Pakistan."
   },
@@ -27,8 +27,8 @@
     "button_label": "About Awais Packages",
     "button_href": "https://www.awaispackages.com/about-us",
     "media": {
-      "image": "https://www.awaispackages.com/_img/gallery_02.jpg",
-      "alt": "Facility photograph from the Awais Packages website"
+      "image": "/images/awais/who-we-are-press.webp",
+      "alt": "Offset printing press inside Awais Packages"
     }
   },
   "products": {
@@ -66,31 +66,36 @@
         "num": "01",
         "title": "Our facilities",
         "text": "A look inside Awais Packages, using photographs from the company’s facility gallery.",
-        "image": "https://www.awaispackages.com/_img/gallery_01.jpg"
+        "image": "/images/awais/our-facilities.webp",
+        "alt": "Cartons and stacked packaging board inside the Awais Packages facility"
       },
       {
         "num": "02",
         "title": "Made in Hattar",
         "text": "Packaging design, production and printing at one location.",
-        "image": "https://www.awaispackages.com/_img/gallery_02.jpg"
+        "image": "/images/awais/made-in-hattar.webp",
+        "alt": "Entrance to the Awais Packages factory in Hattar"
       },
       {
         "num": "03",
         "title": "Investment in technology",
         "text": "Modern machinery supports the company’s offset printing operation.",
-        "image": "https://www.awaispackages.com/_img/gallery_03.jpg"
+        "image": "/images/awais/technology.webp",
+        "alt": "BOBST packaging machinery at Awais Packages"
       },
       {
         "num": "04",
         "title": "Packaging expertise",
         "text": "Folding cartons and printed corrugated packaging for a range of industries.",
-        "image": "https://www.awaispackages.com/_img/gallery_04.jpg"
+        "image": "https://www.awaispackages.com/_img/gallery_04.jpg",
+        "alt": "Awais Packages facility photograph"
       },
       {
         "num": "05",
         "title": "Attention to detail",
         "text": "Supplier relationships support efficient packaging production.",
-        "image": "https://www.awaispackages.com/_img/gallery_05.jpg"
+        "image": "/images/awais/attention-to-detail.webp",
+        "alt": "Packaging production line at Awais Packages"
       }
     ]
   },
