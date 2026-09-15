@@ -39,20 +39,20 @@
       {
         "title": "Offset printing",
         "text": "Print and design solutions that help brands stand out.",
-        "image": "https://www.awaispackages.com/_img/gallery_03.jpg",
-        "alt": "Awais Packages facility photograph"
+        "image": "/images/awais/solution-offset-printing.jpg",
+        "alt": "Printing press and printed work in a professional studio"
       },
       {
         "title": "Offset corrugated cartons",
         "text": "Printed corrugated packaging for oil, ghee, electronics and fruit.",
-        "image": "https://www.awaispackages.com/_img/gallery_04.jpg",
-        "alt": "Awais Packages facility photograph"
+        "image": "/images/awais/solution-corrugated-cartons.jpg",
+        "alt": "Stacked corrugated cardboard boxes"
       },
       {
         "title": "Prepress support",
         "text": "Support for packaging design and preparation before production.",
-        "image": "https://www.awaispackages.com/_img/gallery_05.jpg",
-        "alt": "Awais Packages facility photograph"
+        "image": "/images/awais/solution-prepress.jpg",
+        "alt": "Designer reviewing colour swatches during prepress planning"
       }
     ],
     "button_label": "Explore packaging solutions",

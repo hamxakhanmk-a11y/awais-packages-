@@ -29,3 +29,11 @@ The solutions cards and Packaging expertise image retain their existing remote r
 ## Latest replacement photos
 
 The latest seven user-supplied images replace the hero, Who we are, and the five facility stages in attachment order. Original PNG/JPEG files are copied without additional brightness adjustments.
+
+## Solution card photos
+
+The three homepage solution cards use locally saved, free-to-use photos sourced from Pexels:
+
+- Offset printing: https://www.pexels.com/photo/studio-with-typography-press-and-posters-6620963/
+- Offset corrugated cartons: https://www.pexels.com/photo/close-up-of-boxes-5025503/
+- Prepress support: https://www.pexels.com/photo/person-holding-color-palettes-5292193/
